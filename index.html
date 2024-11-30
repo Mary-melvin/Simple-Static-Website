@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>M&M Child Daycare Center</title>
+</head>
+<body>
+    <header>
+        <section id="nav" class="navsection">
+            <div class="logo">
+                <h1>M&M Child Daycare Center</h1>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <nav id="mobile-menu">
+                <a href="#home" class="active">Home</a>
+                <a href="#about-us">About</a>
+                <a href="#classroom">Classroom</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </section>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="images/background.1.jpg" alt="Daycare Center Background">
+    </section>
+
+    <section id="about-us" class="about">
+        <div class="container">
+            <h2>About us</h2>
+            <p>Our ambition is to keep children’s natural curiosity and spontaneity as the center of all programs and activities.Our unique approach to Pre-school and Elementary education eliminates bags, homework, and exams, focusing instead on activity-based learning. We offer a range of exciting activities including Taekwondo, swimming, foreign languages, and various sports. Our holistic programs like Artes Summer Camp and Artes Kids Club, along with our emphasis on creativity, personal health, and community involvement, make Artes a vibrant and nurturing environment for every child. </p>
+           <br>
+            <img src="images/About.jpg" alt="About us">
+        </div>
+    </section>
+
+
+    <section id="classroom" class="classrooms">
+        <div class="container">
+            <h2>Classroom</h2>
+            <p>M&M is the best Day care Center and School in Karachi that offers fun-filled learning for toddlers to allow greater learning for children. With activity-based learning we work to enhance the child’s skill to earn, understand, adapt, and rationalize at an early age.Subject being taught are Mathematics, English Language, Urdu Language, Chinese Language, Personal Health Development, Ethics and Speech & Communication.</p>
+           <br>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Infants Group</h3>
+                    <img src="images/infant.jpg" alt="Infants Group">
+                    <p>Care for infants, with a focus on nurturing and early development.</p>
+                </div>
+                <div class="card">
+                    <h3>Toddlers Group</h3>
+                    <img src="images/Toddler.jpg" alt="Toddlers Group">
+                    <p>Creative and playful activities for toddlers aged 1 to 3 years to encourage exploration and growth.</p>
+                </div>
+                <div class="card">
+                    <h3>Preschool Group</h3>
+                    <img src="images/Preschool.jpg" alt="Preschool Group">
+                    <p>Preschool programs for children aged 3 to 5 years to prepare them for kindergarten and beyond.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Learning Based Teaching" class="Learning">
+        <div class="container-2">
+            <h2>Learning Based Teaching</h2>
+            <p>M&M enhances Pre-school & Montessori learning and keeps the child eager and happy through activity-based learning.
+             Ensuring transfer of knowledge and understanding of the world in a fun filled way through sand-play, plantation, and animal care.</p>
+            <div class="card-2">
+           <h3>Activity-Base</h3>
+            <img src="images/activity.jpg" alt="Activity-Base">
+            </div>
+            <div class="card-2">
+                <h3>Taekwondo</h3>
+                <img src="images/Taekwondo.jpg" alt="Taekwondo">
+                </div>
+                <div class="card-2">
+                    <h3>Swimming</h3>
+                    <img src="images/swimming.jpg" alt="Swimming">
+                    </div>
+                </section>
+    
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact us</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <section id="location" class="location">
+            <div class="container">
+                <h2>Our Location</h2>
+                <p>123 Street, Opposite City Hospital, Karachi, Sindh</p>
+                <p>google map: https://www.google.com/maps</p>
+            </div>
+        </section>
+        <br>
+        <p>2024 M&M Child Daycare Center | All Rights Reserved</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("mobile-menu");
+            if (menu.style.display === "flex") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+</html>
